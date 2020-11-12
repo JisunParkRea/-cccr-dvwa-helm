@@ -5,8 +5,8 @@
 replicaCount: 3
 
 image:
-  repository: 34.64.237.112/cccr/jisun
-  tag: latest
+  repository: jisunpark/cccr-dvwa-java-web
+  tag: 13
   pullPolicy: ""
 
 
