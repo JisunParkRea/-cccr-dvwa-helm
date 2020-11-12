@@ -32,11 +32,11 @@ spec:
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         name: {{ .Values.name.app }}
-        imagePullSecrets:
-        - name: regcred
         ports:
         - containerPort: 8080
         resources: {}
+      imagePullSecrets:
+      - name: lahuman
       restartPolicy: Always
       serviceAccountName: ""
       volumes: null
