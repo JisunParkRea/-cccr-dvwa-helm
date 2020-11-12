@@ -32,7 +32,7 @@ spec:
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         name: {{ .Values.name.app }}
-      imagePullSecrets:
+        imagePullSecrets:
         name: regcred
         ports:
         - containerPort: 8080
