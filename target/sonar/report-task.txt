@@ -1,0 +1,6 @@
+projectKey=com.appsecco:dvja
+serverUrl=http://34.64.237.112:9000
+serverVersion=8.5.0.37579
+dashboardUrl=http://34.64.237.112:9000/dashboard?id=com.appsecco%3Advja
+ceTaskId=AXX50xA3D90j0dRGEkPO
+ceTaskUrl=http://34.64.237.112:9000/api/ce/task?id=AXX50xA3D90j0dRGEkPO

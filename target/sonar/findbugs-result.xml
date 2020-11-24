@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.1.2" sequence="0" timestamp="1606214026000" analysisTimestamp="1606214143088" release="">
+  <Project>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/Constant.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/ApiAction.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/BaseController.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/Home.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/Login.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/PingAction.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/ProductAction.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/RedirectAction.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/Register.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/ResetPassword.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/controllers/UserAction.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/interceptors/AuthenticationInterceptor.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/models/Product.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/models/User.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/services/ProductService.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/services/UserAuthenticationService.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/services/UserRegistrationService.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/dvja/services/UserService.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/example/ExampleSupport.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/example/HelloWorld.class</Jar>
+    <Jar>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes/com/appsecco/example/Login.class</Jar>
+    <AuxClasspathEntry>/var/lib/jenkins/workspace/ci-build-pipeline/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/struts2-core/2.3.30/struts2-core-2.3.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/xwork/xwork-core/2.3.30/xwork-core-2.3.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/asm/asm-commons/3.3/asm-commons-3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/asm/asm-tree/3.3/asm-tree-3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/freemarker/freemarker/2.3.22/freemarker-2.3.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/ognl/ognl/3.0.19/ognl-3.0.19.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/struts2-config-browser-plugin/2.3.30/struts2-config-browser-plugin-2.3.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.5.2/slf4j-log4j12-1.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/cglib/cglib/2.2/cglib-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/asm/asm/3.1/asm-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/com/jgeppert/struts2/bootstrap/struts2-bootstrap-plugin/2.5.1/struts2-bootstrap-plugin-2.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/sslext/sslext/1.2-0/sslext-1.2-0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/struts/struts2-spring-plugin/2.3.30/struts2-spring-plugin-2.3.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/apache/commons/commons-lang3/3.2/commons-lang3-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/hibernate/hibernate-core/3.3.1.GA/hibernate-core-3.3.1.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/hibernate/hibernate-entitymanager/3.4.0.GA/hibernate-entitymanager-3.4.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/javassist/javassist/3.4.GA/javassist-3.4.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/workspace/ci-build-pipeline/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/var/lib/jenkins/workspace/ci-build-pipeline/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/var/lib/jenkins/workspace/ci-build-pipeline/target/sonar</WrkDir>
+  </Project>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" instanceHash="96b0f077771c46d47e66acc7b394bc0f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="218">
+    <ShortMessage>Field isn&apos;t final but should be</ShortMessage>
+    <LongMessage>com.appsecco.dvja.Constant.SESSION_USER_HANDLE isn&apos;t final but should be</LongMessage>
+    <Class classname="com.appsecco.dvja.Constant" primary="true">
+      <SourceLine classname="com.appsecco.dvja.Constant" start="3" end="4" sourcefile="Constant.java" sourcepath="com/appsecco/dvja/Constant.java">
+        <Message>At Constant.java:[lines 3-4]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.Constant</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.Constant" name="SESSION_USER_HANDLE" signature="Ljava/lang/String;" isStatic="true" primary="true">
+      <SourceLine classname="com.appsecco.dvja.Constant" sourcefile="Constant.java" sourcepath="com/appsecco/dvja/Constant.java">
+        <Message>In Constant.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.Constant.SESSION_USER_HANDLE</Message>
+    </Field>
+    <SourceLine classname="com.appsecco.dvja.Constant" primary="true" start="4" end="4" startBytecode="2" endBytecode="2" sourcefile="Constant.java" sourcepath="com/appsecco/dvja/Constant.java">
+      <Message>At Constant.java:[line 4]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" instanceHash="491339d53e1d158b340c0b6e0fc3eda1" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method makes literal string comparisons passing the literal as an argument</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.controllers.ApiAction.adminShowUsers() makes literal string comparisons passing the literal as an argument</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ApiAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" start="14" end="81" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java">
+        <Message>At ApiAction.java:[lines 14-81]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ApiAction</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.ApiAction" name="adminShowUsers" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" start="36" end="64" startBytecode="0" endBytecode="497" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java"/>
+      <Message>In method com.appsecco.dvja.controllers.ApiAction.adminShowUsers()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" primary="true" start="40" end="40" startBytecode="47" endBytecode="47" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java">
+      <Message>At ApiAction.java:[line 40]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PSC_PRESIZE_COLLECTIONS" priority="2" rank="18" abbrev="PSC" category="PERFORMANCE" instanceHash="b1ec73628ce22dff403f81dae8ce897b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method does not presize the allocation of a collection</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.controllers.ApiAction.adminShowUsers() does not presize the allocation of a collection</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ApiAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" start="14" end="81" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java">
+        <Message>At ApiAction.java:[lines 14-81]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ApiAction</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.ApiAction" name="adminShowUsers" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" start="36" end="64" startBytecode="0" endBytecode="497" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java"/>
+      <Message>In method com.appsecco.dvja.controllers.ApiAction.adminShowUsers()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" primary="true" start="57" end="57" startBytecode="203" endBytecode="203" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java">
+      <Message>At ApiAction.java:[line 57]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="6be5eb7ef0ec43ca54a9461090a558e0" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.ApiAction defines non-transient non-serializable instance field userService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ApiAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" start="14" end="81" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java">
+        <Message>At ApiAction.java:[lines 14-81]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ApiAction</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.ApiAction" name="userService" signature="Lcom/appsecco/dvja/services/UserService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java">
+        <Message>In ApiAction.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.ApiAction.userService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/UserService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.UserService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.ApiAction" sourcefile="ApiAction.java" sourcepath="com/appsecco/dvja/controllers/ApiAction.java" synthetic="true">
+      <Message>In ApiAction.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="IMC_IMMATURE_CLASS_PRINTSTACKTRACE" priority="2" rank="17" abbrev="IMC" category="STYLE" instanceHash="b20f1c2dd8036f01a023482dca73ff28" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method prints the stack trace to the console</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.controllers.BaseController.renderJSON(Map) prints the stack trace to the console</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.BaseController" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.BaseController" start="17" end="78" sourcefile="BaseController.java" sourcepath="com/appsecco/dvja/controllers/BaseController.java">
+        <Message>At BaseController.java:[lines 17-78]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.BaseController</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.BaseController" name="renderJSON" signature="(Ljava/util/Map;)Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.BaseController" start="69" end="78" startBytecode="0" endBytecode="181" sourcefile="BaseController.java" sourcepath="com/appsecco/dvja/controllers/BaseController.java"/>
+      <Message>In method com.appsecco.dvja.controllers.BaseController.renderJSON(Map)</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.BaseController" primary="true" start="75" end="75" startBytecode="44" endBytecode="44" sourcefile="BaseController.java" sourcepath="com/appsecco/dvja/controllers/BaseController.java">
+      <Message>At BaseController.java:[line 75]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="IMC_IMMATURE_CLASS_PRINTSTACKTRACE" priority="2" rank="17" abbrev="IMC" category="STYLE" instanceHash="8d95acbc687ae1ca9a04d1963b1bf2b0" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method prints the stack trace to the console</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.controllers.BaseController.renderText(String) prints the stack trace to the console</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.BaseController" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.BaseController" start="17" end="78" sourcefile="BaseController.java" sourcepath="com/appsecco/dvja/controllers/BaseController.java">
+        <Message>At BaseController.java:[lines 17-78]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.BaseController</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.BaseController" name="renderText" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.BaseController" start="60" end="65" startBytecode="0" endBytecode="121" sourcefile="BaseController.java" sourcepath="com/appsecco/dvja/controllers/BaseController.java"/>
+      <Message>In method com.appsecco.dvja.controllers.BaseController.renderText(String)</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.BaseController" primary="true" start="62" end="62" startBytecode="17" endBytecode="17" sourcefile="BaseController.java" sourcepath="com/appsecco/dvja/controllers/BaseController.java">
+      <Message>At BaseController.java:[line 62]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="b8a64e959d6e1317aa4f9130f7626fc4" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.Home defines non-transient non-serializable instance field productService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.Home" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Home" start="8" end="35" sourcefile="Home.java" sourcepath="com/appsecco/dvja/controllers/Home.java">
+        <Message>At Home.java:[lines 8-35]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.Home</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.Home" name="productService" signature="Lcom/appsecco/dvja/services/ProductService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Home" sourcefile="Home.java" sourcepath="com/appsecco/dvja/controllers/Home.java">
+        <Message>In Home.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.Home.productService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/ProductService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="17" end="51" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+        <Message>At ProductService.java:[lines 17-51]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.ProductService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.Home" sourcefile="Home.java" sourcepath="com/appsecco/dvja/controllers/Home.java" synthetic="true">
+      <Message>In Home.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="c8651d3401aa4a27247306cc4060a9bc" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.Home defines non-transient non-serializable instance field products</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.Home" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Home" start="8" end="35" sourcefile="Home.java" sourcepath="com/appsecco/dvja/controllers/Home.java">
+        <Message>At Home.java:[lines 8-35]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.Home</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.Home" name="products" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Home" sourcefile="Home.java" sourcepath="com/appsecco/dvja/controllers/Home.java">
+        <Message>In Home.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.Home.products</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/models/Product;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.models.Product</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.Home" sourcefile="Home.java" sourcepath="com/appsecco/dvja/controllers/Home.java" synthetic="true">
+      <Message>In Home.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="9f85101b80ada8b3ccbb8c73c44c91e9" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.Login defines non-transient non-serializable instance field userAuthenticationService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.Login" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Login" start="7" end="55" sourcefile="Login.java" sourcepath="com/appsecco/dvja/controllers/Login.java">
+        <Message>At Login.java:[lines 7-55]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.Login</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.Login" name="userAuthenticationService" signature="Lcom/appsecco/dvja/services/UserAuthenticationService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Login" sourcefile="Login.java" sourcepath="com/appsecco/dvja/controllers/Login.java">
+        <Message>In Login.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.Login.userAuthenticationService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/UserAuthenticationService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.UserAuthenticationService" start="5" end="24" sourcefile="UserAuthenticationService.java" sourcepath="com/appsecco/dvja/services/UserAuthenticationService.java">
+        <Message>At UserAuthenticationService.java:[lines 5-24]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.UserAuthenticationService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.Login" sourcefile="Login.java" sourcepath="com/appsecco/dvja/controllers/Login.java" synthetic="true">
+      <Message>In Login.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="COMMAND_INJECTION" priority="2" rank="7" abbrev="SECCI" category="SECURITY" instanceHash="a3d32afc802fbe9c9f948b40b7bbc455" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="78">
+    <ShortMessage>Potential Command Injection</ShortMessage>
+    <LongMessage>This usage of java/lang/Runtime.exec([Ljava/lang/String;)Ljava/lang/Process; can be vulnerable to Command Injection</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.PingAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="9" end="63" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+        <Message>At PingAction.java:[lines 9-63]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.PingAction</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.PingAction" name="doExecCommand" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="44" end="63" startBytecode="0" endBytecode="426" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java"/>
+      <Message>In method com.appsecco.dvja.controllers.PingAction.doExecCommand()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" primary="true" start="46" end="46" startBytecode="46" endBytecode="46" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+      <Message>At PingAction.java:[line 46]</Message>
+    </SourceLine>
+    <String value="java/lang/Runtime.exec([Ljava/lang/String;)Ljava/lang/Process;" role="Sink method">
+      <Message>Sink method java/lang/Runtime.exec([Ljava/lang/String;)Ljava/lang/Process;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/appsecco/dvja/controllers/PingAction.address" role="Unknown source">
+      <Message>Unknown source com/appsecco/dvja/controllers/PingAction.address</Message>
+    </String>
+    <String value="com/appsecco/dvja/controllers/PingAction.getAddress()Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source com/appsecco/dvja/controllers/PingAction.getAddress()Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="15" end="15" startBytecode="1" endBytecode="1" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+      <Message>At PingAction.java:[line 15]</Message>
+    </SourceLine>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="45" end="45" startBytecode="33" endBytecode="33" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+      <Message>At PingAction.java:[line 45]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" instanceHash="71ce3beb813fd561e230b1cff12a3b9f" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in com.appsecco.dvja.controllers.PingAction.doExecCommand(): new java.io.InputStreamReader(InputStream)</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.PingAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="9" end="63" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+        <Message>At PingAction.java:[lines 9-63]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.PingAction</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.PingAction" name="doExecCommand" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="44" end="63" startBytecode="0" endBytecode="426" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java"/>
+      <Message>In method com.appsecco.dvja.controllers.PingAction.doExecCommand()</Message>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="146" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+      <Message>Called method new java.io.InputStreamReader(InputStream)</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" primary="true" start="48" end="48" startBytecode="62" endBytecode="62" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+      <Message>At PingAction.java:[line 48]</Message>
+    </SourceLine>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="58" end="58" startBytecode="174" endBytecode="174" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at PingAction.java:[line 58]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="7ab720507d6ce080f8e9330adba08a7f" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>com.appsecco.dvja.controllers.PingAction.doExecCommand() may fail to close stream</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.PingAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="9" end="63" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+        <Message>At PingAction.java:[lines 9-63]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.PingAction</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.PingAction" name="doExecCommand" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="44" end="63" startBytecode="0" endBytecode="106" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java"/>
+      <Message>In method com.appsecco.dvja.controllers.PingAction.doExecCommand()</Message>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java">
+        <Message>At Reader.java:[lines 66-249]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.Reader </Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" primary="true" start="48" end="48" startBytecode="50" endBytecode="50" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+      <Message>At PingAction.java:[line 48]</Message>
+    </SourceLine>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="58" end="58" startBytecode="162" endBytecode="162" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at PingAction.java:[line 58]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" instanceHash="c48e75026e48228dd3ab3dc7260c4857" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method concatenates strings using + in a loop</ShortMessage>
+    <LongMessage>com.appsecco.dvja.controllers.PingAction.doExecCommand() concatenates strings using + in a loop</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.PingAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="9" end="63" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+        <Message>At PingAction.java:[lines 9-63]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.PingAction</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.PingAction" name="doExecCommand" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.PingAction" start="44" end="63" startBytecode="0" endBytecode="426" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java"/>
+      <Message>In method com.appsecco.dvja.controllers.PingAction.doExecCommand()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.PingAction" primary="true" start="53" end="53" startBytecode="88" endBytecode="88" sourcefile="PingAction.java" sourcepath="com/appsecco/dvja/controllers/PingAction.java">
+      <Message>At PingAction.java:[line 53]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="d58645baf991b188791f83b4755cb205" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.ProductAction defines non-transient non-serializable instance field product</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ProductAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" start="11" end="91" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+        <Message>At ProductAction.java:[lines 11-91]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ProductAction</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.ProductAction" name="product" signature="Lcom/appsecco/dvja/models/Product;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+        <Message>In ProductAction.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.ProductAction.product</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/models/Product;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.models.Product</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java" synthetic="true">
+      <Message>In ProductAction.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="32179a32dee816e7700a2f8f708e5108" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.ProductAction defines non-transient non-serializable instance field productService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ProductAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" start="11" end="91" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+        <Message>At ProductAction.java:[lines 11-91]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ProductAction</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.ProductAction" name="productService" signature="Lcom/appsecco/dvja/services/ProductService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+        <Message>In ProductAction.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.ProductAction.productService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/ProductService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="17" end="51" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+        <Message>At ProductService.java:[lines 17-51]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.ProductService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java" synthetic="true">
+      <Message>In ProductAction.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="1c263d9f60929a62aa24801b6379227b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.ProductAction defines non-transient non-serializable instance field products</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ProductAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" start="11" end="91" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+        <Message>At ProductAction.java:[lines 11-91]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ProductAction</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.ProductAction" name="products" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+        <Message>In ProductAction.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.ProductAction.products</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/models/Product;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.models.Product</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java" synthetic="true">
+      <Message>In ProductAction.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="LSC_LITERAL_STRING_COMPARISON" priority="1" rank="17" abbrev="LSC" category="STYLE" instanceHash="1a7284a08bd237745defea91f765ea3b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method makes literal string comparisons passing the literal as an argument</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.controllers.Register.validate() makes literal string comparisons passing the literal as an argument</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.Register" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Register" start="7" end="96" sourcefile="Register.java" sourcepath="com/appsecco/dvja/controllers/Register.java">
+        <Message>At Register.java:[lines 7-96]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.Register</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.controllers.Register" name="validate" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Register" start="66" end="79" startBytecode="0" endBytecode="216" sourcefile="Register.java" sourcepath="com/appsecco/dvja/controllers/Register.java"/>
+      <Message>In method com.appsecco.dvja.controllers.Register.validate()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.controllers.Register" primary="true" start="66" end="66" startBytecode="11" endBytecode="11" sourcefile="Register.java" sourcepath="com/appsecco/dvja/controllers/Register.java">
+      <Message>At Register.java:[line 66]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="f6c2244a6ffa2ad6f479537668743107" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.Register defines non-transient non-serializable instance field userRegistrationService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.Register" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Register" start="7" end="96" sourcefile="Register.java" sourcepath="com/appsecco/dvja/controllers/Register.java">
+        <Message>At Register.java:[lines 7-96]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.Register</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.Register" name="userRegistrationService" signature="Lcom/appsecco/dvja/services/UserRegistrationService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.Register" sourcefile="Register.java" sourcepath="com/appsecco/dvja/controllers/Register.java">
+        <Message>In Register.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.Register.userRegistrationService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/UserRegistrationService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.UserRegistrationService" start="7" end="36" sourcefile="UserRegistrationService.java" sourcepath="com/appsecco/dvja/services/UserRegistrationService.java">
+        <Message>At UserRegistrationService.java:[lines 7-36]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.UserRegistrationService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.Register" sourcefile="Register.java" sourcepath="com/appsecco/dvja/controllers/Register.java" synthetic="true">
+      <Message>In Register.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="aee3cae03f584cb7da4af63fd539e734" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.ResetPassword defines non-transient non-serializable instance field userService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.ResetPassword" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ResetPassword" start="6" end="87" sourcefile="ResetPassword.java" sourcepath="com/appsecco/dvja/controllers/ResetPassword.java">
+        <Message>At ResetPassword.java:[lines 6-87]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.ResetPassword</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.ResetPassword" name="userService" signature="Lcom/appsecco/dvja/services/UserService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.ResetPassword" sourcefile="ResetPassword.java" sourcepath="com/appsecco/dvja/controllers/ResetPassword.java">
+        <Message>In ResetPassword.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.ResetPassword.userService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/UserService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.UserService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.ResetPassword" sourcefile="ResetPassword.java" sourcepath="com/appsecco/dvja/controllers/ResetPassword.java" synthetic="true">
+      <Message>In ResetPassword.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="59e77a7e50962f0a2bb061f8a9fdfc29" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.UserAction defines non-transient non-serializable instance field user</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.UserAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.UserAction" start="7" end="120" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java">
+        <Message>At UserAction.java:[lines 7-120]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.UserAction</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.UserAction" name="user" signature="Lcom/appsecco/dvja/models/User;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.UserAction" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java">
+        <Message>In UserAction.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.UserAction.user</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/models/User;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.models.User" start="12" end="98" sourcefile="User.java" sourcepath="com/appsecco/dvja/models/User.java">
+        <Message>At User.java:[lines 12-98]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.models.User</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.UserAction" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java" synthetic="true">
+      <Message>In UserAction.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="b4b02c11bc7c0c9c7351fba0608b5874" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class com.appsecco.dvja.controllers.UserAction defines non-transient non-serializable instance field userService</LongMessage>
+    <Class classname="com.appsecco.dvja.controllers.UserAction" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.UserAction" start="7" end="120" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java">
+        <Message>At UserAction.java:[lines 7-120]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.controllers.UserAction</Message>
+    </Class>
+    <Field classname="com.appsecco.dvja.controllers.UserAction" name="userService" signature="Lcom/appsecco/dvja/services/UserService;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.controllers.UserAction" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java">
+        <Message>In UserAction.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.controllers.UserAction.userService</Message>
+    </Field>
+    <Type descriptor="Lcom/appsecco/dvja/services/UserService;" role="TYPE_FOUND">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>Actual type com.appsecco.dvja.services.UserService</Message>
+    </Type>
+    <SourceLine classname="com.appsecco.dvja.controllers.UserAction" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java" synthetic="true">
+      <Message>In UserAction.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="881be66c847cedcab2cab6914af777ff" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.appsecco.dvja.models.Product.getCreatedAt() may expose internal representation by returning Product.createdAt</LongMessage>
+    <Class classname="com.appsecco.dvja.models.Product" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.models.Product</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.models.Product" name="getCreatedAt" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="77" end="77" startBytecode="0" endBytecode="46" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java"/>
+      <Message>In method com.appsecco.dvja.models.Product.getCreatedAt()</Message>
+    </Method>
+    <Field classname="com.appsecco.dvja.models.Product" name="createdAt" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>In Product.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.models.Product.createdAt</Message>
+    </Field>
+    <SourceLine classname="com.appsecco.dvja.models.Product" primary="true" start="77" end="77" startBytecode="4" endBytecode="4" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+      <Message>At Product.java:[line 77]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="6c0f1b2124092eebdc9e004a2300032d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.appsecco.dvja.models.Product.getUpdatedAt() may expose internal representation by returning Product.updatedAt</LongMessage>
+    <Class classname="com.appsecco.dvja.models.Product" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.models.Product</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.models.Product" name="getUpdatedAt" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="85" end="85" startBytecode="0" endBytecode="46" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java"/>
+      <Message>In method com.appsecco.dvja.models.Product.getUpdatedAt()</Message>
+    </Method>
+    <Field classname="com.appsecco.dvja.models.Product" name="updatedAt" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>In Product.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.models.Product.updatedAt</Message>
+    </Field>
+    <SourceLine classname="com.appsecco.dvja.models.Product" primary="true" start="85" end="85" startBytecode="4" endBytecode="4" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+      <Message>At Product.java:[line 85]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="cc4c8d5bbed3706b1ee755cfca94ad6e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.appsecco.dvja.models.Product.setCreatedAt(Date) may expose internal representation by storing an externally mutable object into Product.createdAt</LongMessage>
+    <Class classname="com.appsecco.dvja.models.Product" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.models.Product</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.models.Product" name="setCreatedAt" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="81" end="82" startBytecode="0" endBytecode="61" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java"/>
+      <Message>In method com.appsecco.dvja.models.Product.setCreatedAt(Date)</Message>
+    </Method>
+    <Field classname="com.appsecco.dvja.models.Product" name="createdAt" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>In Product.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.models.Product.createdAt</Message>
+    </Field>
+    <LocalVariable name="createdAt" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named createdAt</Message>
+    </LocalVariable>
+    <SourceLine classname="com.appsecco.dvja.models.Product" primary="true" start="81" end="81" startBytecode="2" endBytecode="2" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+      <Message>At Product.java:[line 81]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="7032c913fe76c0c85b9e695c92c75d84" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.appsecco.dvja.models.Product.setUpdatedAt(Date) may expose internal representation by storing an externally mutable object into Product.updatedAt</LongMessage>
+    <Class classname="com.appsecco.dvja.models.Product" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="11" end="98" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>At Product.java:[lines 11-98]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.models.Product</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.models.Product" name="setUpdatedAt" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" start="89" end="90" startBytecode="0" endBytecode="61" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java"/>
+      <Message>In method com.appsecco.dvja.models.Product.setUpdatedAt(Date)</Message>
+    </Method>
+    <Field classname="com.appsecco.dvja.models.Product" name="updatedAt" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.models.Product" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+        <Message>In Product.java</Message>
+      </SourceLine>
+      <Message>Field com.appsecco.dvja.models.Product.updatedAt</Message>
+    </Field>
+    <LocalVariable name="updatedAt" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named updatedAt</Message>
+    </LocalVariable>
+    <SourceLine classname="com.appsecco.dvja.models.Product" primary="true" start="89" end="89" startBytecode="2" endBytecode="2" sourcefile="Product.java" sourcepath="com/appsecco/dvja/models/Product.java">
+      <Message>At Product.java:[line 89]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SQL_INJECTION_JPA" priority="2" rank="7" abbrev="SECSQLIJPA" category="SECURITY" instanceHash="8f0cd309d80fce9bbafbb190b28b95da" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="89">
+    <ShortMessage>Potential SQL/JPQL Injection (JPA)</ShortMessage>
+    <LongMessage>This use of javax/persistence/EntityManager.createQuery(Ljava/lang/String;)Ljavax/persistence/Query; can be vulnerable to SQL/JPQL injection (with JPA)</LongMessage>
+    <Class classname="com.appsecco.dvja.services.ProductService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="17" end="51" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+        <Message>At ProductService.java:[lines 17-51]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.ProductService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.ProductService" name="findContainingName" signature="(Ljava/lang/String;)Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="48" end="51" startBytecode="0" endBytecode="140" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java"/>
+      <Message>In method com.appsecco.dvja.services.ProductService.findContainingName(String)</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.ProductService" primary="true" start="48" end="48" startBytecode="28" endBytecode="28" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+      <Message>At ProductService.java:[line 48]</Message>
+    </SourceLine>
+    <String value="javax/persistence/EntityManager.createQuery(Ljava/lang/String;)Ljavax/persistence/Query;" role="Sink method">
+      <Message>Sink method javax/persistence/EntityManager.createQuery(Ljava/lang/String;)Ljavax/persistence/Query;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/appsecco/dvja/services/ProductService.findContainingName(Ljava/lang/String;)Ljava/util/List; parameter 0" role="Unknown source">
+      <Message>Unknown source com/appsecco/dvja/services/ProductService.findContainingName(Ljava/lang/String;)Ljava/util/List; parameter 0</Message>
+    </String>
+    <SourceLine classname="com.appsecco.dvja.controllers.ProductAction" start="66" end="66" startBytecode="33" endBytecode="33" sourcefile="ProductAction.java" sourcepath="com/appsecco/dvja/controllers/ProductAction.java">
+      <Message>At ProductAction.java:[line 66]</Message>
+    </SourceLine>
+    <SourceLine classname="com.appsecco.dvja.services.ProductService" start="48" end="48" startBytecode="25" endBytecode="25" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+      <Message>At ProductService.java:[line 48]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" priority="2" rank="17" abbrev="USBR" category="STYLE" instanceHash="e891538eed8f91f2bf36eef1dac6b23a" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method stores return result in local before immediately returning it</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.services.ProductService.findAll() stores return result in local before immediately returning it</LongMessage>
+    <Class classname="com.appsecco.dvja.services.ProductService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="17" end="51" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+        <Message>At ProductService.java:[lines 17-51]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.ProductService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.ProductService" name="findAll" signature="()Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="41" end="44" startBytecode="0" endBytecode="108" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java"/>
+      <Message>In method com.appsecco.dvja.services.ProductService.findAll()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.ProductService" primary="true" start="44" end="44" startBytecode="20" endBytecode="20" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+      <Message>At ProductService.java:[line 44]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" priority="2" rank="17" abbrev="USBR" category="STYLE" instanceHash="f0e7799d4ed46738d0c50c5dde8b03db" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method stores return result in local before immediately returning it</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.services.ProductService.findContainingName(String) stores return result in local before immediately returning it</LongMessage>
+    <Class classname="com.appsecco.dvja.services.ProductService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="17" end="51" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+        <Message>At ProductService.java:[lines 17-51]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.ProductService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.ProductService" name="findContainingName" signature="(Ljava/lang/String;)Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.ProductService" start="48" end="51" startBytecode="0" endBytecode="140" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java"/>
+      <Message>In method com.appsecco.dvja.services.ProductService.findContainingName(String)</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.ProductService" primary="true" start="51" end="51" startBytecode="42" endBytecode="42" sourcefile="ProductService.java" sourcepath="com/appsecco/dvja/services/ProductService.java">
+      <Message>At ProductService.java:[line 51]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" instanceHash="a21465f316ff4dc93e24316c801751de" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in com.appsecco.dvja.services.UserService.hashEncodePassword(String): String.getBytes()</LongMessage>
+    <Class classname="com.appsecco.dvja.services.UserService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.UserService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.UserService" name="hashEncodePassword" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="109" end="109" startBytecode="0" endBytecode="59" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java"/>
+      <Message>In method com.appsecco.dvja.services.UserService.hashEncodePassword(String)</Message>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="55" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+      <Message>Called method String.getBytes()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" primary="true" start="109" end="109" startBytecode="1" endBytecode="1" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 109]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" instanceHash="5aed2a472acf6d62e5f0431a4dc8083c" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in com.appsecco.dvja.services.UserService.resetPasswordByLogin(String, String, String, String): String.getBytes()</LongMessage>
+    <Class classname="com.appsecco.dvja.services.UserService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.UserService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.UserService" name="resetPasswordByLogin" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="87" end="105" startBytecode="0" endBytecode="265" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java"/>
+      <Message>In method com.appsecco.dvja.services.UserService.resetPasswordByLogin(String, String, String, String)</Message>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="55" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+      <Message>Called method String.getBytes()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" primary="true" start="90" end="90" startBytecode="12" endBytecode="12" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 90]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="MDM_STRING_BYTES_ENCODING" priority="2" rank="7" abbrev="MDM" category="CORRECTNESS" instanceHash="de720efa5ba4927076acc962b4e90e2b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method encodes String bytes without specifying the character encoding</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.services.UserService.hashEncodePassword(String) encodes String bytes without specifying the character encoding</LongMessage>
+    <Class classname="com.appsecco.dvja.services.UserService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.UserService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.UserService" name="hashEncodePassword" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="109" end="109" startBytecode="0" endBytecode="59" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java"/>
+      <Message>In method com.appsecco.dvja.services.UserService.hashEncodePassword(String)</Message>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="55" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+      <Message>Called method String.getBytes()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" primary="true" start="109" end="109" startBytecode="1" endBytecode="1" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 109]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="MDM_STRING_BYTES_ENCODING" priority="2" rank="7" abbrev="MDM" category="CORRECTNESS" instanceHash="31f2250decf637f001f5e7a2b411a1cc" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method encodes String bytes without specifying the character encoding</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.services.UserService.resetPasswordByLogin(String, String, String, String) encodes String bytes without specifying the character encoding</LongMessage>
+    <Class classname="com.appsecco.dvja.services.UserService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.UserService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.UserService" name="resetPasswordByLogin" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="87" end="105" startBytecode="0" endBytecode="265" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java"/>
+      <Message>In method com.appsecco.dvja.services.UserService.resetPasswordByLogin(String, String, String, String)</Message>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="55" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+      <Message>Called method String.getBytes()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" primary="true" start="90" end="90" startBytecode="12" endBytecode="12" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 90]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SQL_INJECTION_JPA" priority="2" rank="7" abbrev="SECSQLIJPA" category="SECURITY" instanceHash="3f1cea418e03671c6005fa529f50fa5e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="89">
+    <ShortMessage>Potential SQL/JPQL Injection (JPA)</ShortMessage>
+    <LongMessage>This use of javax/persistence/EntityManager.createQuery(Ljava/lang/String;)Ljavax/persistence/Query; can be vulnerable to SQL/JPQL injection (with JPA)</LongMessage>
+    <Class classname="com.appsecco.dvja.services.UserService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.UserService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.UserService" name="findByLoginUnsafe" signature="(Ljava/lang/String;)Lcom/appsecco/dvja/models/User;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="75" end="81" startBytecode="0" endBytecode="185" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java"/>
+      <Message>In method com.appsecco.dvja.services.UserService.findByLoginUnsafe(String)</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" primary="true" start="75" end="75" startBytecode="28" endBytecode="28" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 75]</Message>
+    </SourceLine>
+    <String value="javax/persistence/EntityManager.createQuery(Ljava/lang/String;)Ljavax/persistence/Query;" role="Sink method">
+      <Message>Sink method javax/persistence/EntityManager.createQuery(Ljava/lang/String;)Ljavax/persistence/Query;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/appsecco/dvja/services/UserService.findByLoginUnsafe(Ljava/lang/String;)Lcom/appsecco/dvja/models/User; parameter 0" role="Unknown source">
+      <Message>Unknown source com/appsecco/dvja/services/UserService.findByLoginUnsafe(Ljava/lang/String;)Lcom/appsecco/dvja/models/User; parameter 0</Message>
+    </String>
+    <SourceLine classname="com.appsecco.dvja.controllers.UserAction" start="34" end="34" startBytecode="1" endBytecode="1" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java">
+      <Message>At UserAction.java:[line 34]</Message>
+    </SourceLine>
+    <SourceLine classname="com.appsecco.dvja.controllers.UserAction" start="109" end="109" startBytecode="22" endBytecode="22" sourcefile="UserAction.java" sourcepath="com/appsecco/dvja/controllers/UserAction.java">
+      <Message>At UserAction.java:[line 109]</Message>
+    </SourceLine>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" start="75" end="75" startBytecode="22" endBytecode="22" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 75]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" priority="2" rank="17" abbrev="USBR" category="STYLE" instanceHash="eb98825812c0640c1934795ddc61ba33" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method stores return result in local before immediately returning it</ShortMessage>
+    <LongMessage>Method com.appsecco.dvja.services.UserService.findAllUsers() stores return result in local before immediately returning it</LongMessage>
+    <Class classname="com.appsecco.dvja.services.UserService" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="17" end="109" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+        <Message>At UserService.java:[lines 17-109]</Message>
+      </SourceLine>
+      <Message>In class com.appsecco.dvja.services.UserService</Message>
+    </Class>
+    <Method classname="com.appsecco.dvja.services.UserService" name="findAllUsers" signature="()Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.appsecco.dvja.services.UserService" start="56" end="59" startBytecode="0" endBytecode="108" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java"/>
+      <Message>In method com.appsecco.dvja.services.UserService.findAllUsers()</Message>
+    </Method>
+    <SourceLine classname="com.appsecco.dvja.services.UserService" primary="true" start="59" end="59" startBytecode="20" endBytecode="20" sourcefile="UserService.java" sourcepath="com/appsecco/dvja/services/UserService.java">
+      <Message>At UserService.java:[line 59]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugCategory category="CORRECTNESS">
+    <Description>Correctness</Description>
+  </BugCategory>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugCategory category="I18N">
+    <Description>Internationalization</Description>
+  </BugCategory>
+  <BugPattern type="PSC_PRESIZE_COLLECTIONS" abbrev="PSC" category="PERFORMANCE">
+    <ShortDescription>Method does not presize the allocation of a collection</ShortDescription>
+    <Details><![CDATA[
+			
+			<p>This method allocates a collection using the default constructor even though it is known
+			a priori (or at least can be reasonably guessed) how many items are going to be placed in the collection,
+			and thus needlessly causes intermediate reallocations of the collection.</p>
+			<p>You can use the constructor that takes an initial size and that will be much better, but
+			due to the loadFactor of Maps and Sets, even this will not be a correct estimate.</p>
+			<p>If you are using Guava, use its methods that allocate maps and sets with a predetermined size,
+			to get the best chance for no reallocations, such as:
+			<ul>
+			    <li>Sets.newHashSetWithExpectedSize(int)</li>
+			    <li>Maps.newHashMapWithExpectedSize(int)</li>
+			</ul>
+			If not, a good estimate would be the expectedSize / {LOADING_FACTOR} which by default is 0.75
+			</p>
+			
+		]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by incorporating reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="IMC_IMMATURE_CLASS_PRINTSTACKTRACE" abbrev="IMC" category="STYLE">
+    <ShortDescription>Method prints the stack trace to the console</ShortDescription>
+    <Details><![CDATA[
+    		
+    		<p>This method prints a stack trace to the console. This is non configurable, and causes an
+    		application to look unprofessional. Switch to using loggers so that users can control what
+    		is logged and where.</p>
+    		
+    	]]></Details>
+  </BugPattern>
+  <BugPattern type="SBSC_USE_STRINGBUFFER_CONCATENATION" abbrev="SBSC" category="PERFORMANCE">
+    <ShortDescription>Method concatenates strings using + in a loop</ShortDescription>
+    <Details><![CDATA[
+
+<p> The method seems to be building a String using concatenation in a loop.
+In each iteration, the String is converted to a StringBuffer/StringBuilder,
+   appended to, and converted back to a String.
+   This can lead to a cost quadratic in the number of iterations,
+   as the growing string is recopied in each iteration. </p>
+
+<p>Better performance can be obtained by using
+a StringBuffer (or StringBuilder in Java 1.5) explicitly.</p>
+
+<p> For example:</p>
+<pre><code>// This is bad
+String s = "";
+for (int i = 0; i &lt; field.length; ++i) {
+    s = s + field[i];
+}
+
+// This is better
+StringBuffer buf = new StringBuffer();
+for (int i = 0; i &lt; field.length; ++i) {
+    buf.append(field[i]);
+}
+String s = buf.toString();
+</code></pre>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="MS_SHOULD_BE_FINAL" abbrev="MS" category="MALICIOUS_CODE">
+    <ShortDescription>Field isn&apos;t final but should be</ShortDescription>
+    <Details><![CDATA[
+
+   <p>
+This static field public but not final, and
+could be changed by malicious code or
+        by accident from another package.
+        The field could be made final to avoid
+        this vulnerability.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="SQL_INJECTION_JPA" abbrev="SECSQLIJPA" category="SECURITY" cweid="89">
+    <ShortDescription>Potential SQL/JPQL Injection (JPA)</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+The input values included in SQL queries need to be passed in safely.
+Bind variables in prepared statements can be used to easily mitigate the risk of SQL injection.
+</p>
+<p>
+    <b>Vulnerable Code:</b><br/>
+    <pre>
+EntityManager pm = getEM();
+
+TypedQuery&lt;UserEntity&gt; q = em.createQuery(
+    String.format("select * from Users where name = %s", username),
+    UserEntity.class);
+
+UserEntity res = q.getSingleResult();</pre>
+</p>
+<p>
+    <b>Solution:</b><br/>
+    <pre>
+TypedQuery&lt;UserEntity&gt; q = em.createQuery(
+    "select * from Users where name = usernameParam",UserEntity.class)
+    .setParameter("usernameParam", username);
+
+UserEntity res = q.getSingleResult();</pre>
+</p>
+<br/>
+<p>
+<b>References (JPA)</b><br/>
+<a href="https://docs.oracle.com/javaee/6/tutorial/doc/bnbrg.html">The Java EE 6 Tutorial: Creating Queries Using the Java Persistence Query Language</a><br/>
+<b>References (SQL injection)</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246963/SQL%20Injection">WASC-19: SQL Injection</a><br/>
+<a href="https://capec.mitre.org/data/definitions/66.html">CAPEC-66: SQL Injection</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/89.html">CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A1-Injection">OWASP: Top 10 2013-A1-Injection</a><br/>
+<a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">OWASP: SQL Injection Prevention Cheat Sheet</a><br/>
+<a href="https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet">OWASP: Query Parameterization Cheat Sheet</a><br/>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="MDM_STRING_BYTES_ENCODING" abbrev="MDM" category="CORRECTNESS">
+    <ShortDescription>Method encodes String bytes without specifying the character encoding</ShortDescription>
+    <Details><![CDATA[
+			
+			<p>The behavior of the <code>String(byte[] bytes)</code> and <code>String.getBytes()</code> is undefined if the string cannot be encoded in the platform's default charset. Instead, use the <code>String(byte[] bytes, String encoding)</code> or <code>String.getBytes(String encoding)</code> constructor which accepts the string's encoding as an argument. Be sure to specify the encoding used for the user's locale.</p>
+
+			<p>As per the Java specifications, "UTF-8", "US-ASCII", "UTF-16" and "ISO-8859-1" will all be valid <a href = "http://docs.oracle.com/javase/7/docs/api/java/nio/charset/Charset.html#standard">encoding charsets</a>.  If you aren't sure, try "UTF-8".</p>
+
+			<p><b>New in Java 1.7</b>, you can specify an encoding from <code>StandardCharsets</code>, like <code>StandardCharsets.UTF_8</code>.  These are generally preferrable because you don't have to deal with <code>UnsupportedEncodingException</code>.</p>
+			
+		]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by returning reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="COMMAND_INJECTION" abbrev="SECCI" category="SECURITY" cweid="78">
+    <ShortDescription>Potential Command Injection</ShortDescription>
+    <Details><![CDATA[
+            
+<p>The highlighted API is used to execute a system command. If unfiltered input is passed to this API, it can lead to arbitrary command execution.</p>
+<br/>
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>import java.lang.Runtime;
+
+Runtime r = Runtime.getRuntime();
+r.exec("/bin/sh -c some_tool" + input);</pre>
+</p>
+<p>
+<b>References</b><br/>
+<a href="https://www.owasp.org/index.php/Command_Injection">OWASP: Command Injection</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A1-Injection">OWASP: Top 10 2013-A1-Injection</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/78.html">CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="LSC_LITERAL_STRING_COMPARISON" abbrev="LSC" category="STYLE">
+    <ShortDescription>Method makes literal string comparisons passing the literal as an argument</ShortDescription>
+    <Details><![CDATA[
+			
+			<p>This line is in the form of <br/>
+<pre><code>String str = ...
+str.equals("someOtherString");
+//or
+str.compareTo("someOtherString");</code></pre>
+		    </p>
+			<p>A <code>NullPointerException</code> may occur if the String variable <code>str</code> is <code>null</code>. If instead the code was restructured to<br/>
+<pre><code>String str = ...
+"someOtherString".equals(str);
+//or
+"someOtherString".compareTo(str);</code></pre><br/>
+			that is, call <code>equals()</code> or <code>compareTo()</code> on the string literal, passing the
+			variable as an argument, then this exception could never happen as both <code>equals()</code> and
+			<code>compareTo()</code> check for <code>null</code>.</p>
+			
+		]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_DEFAULT_ENCODING" abbrev="Dm" category="I18N">
+    <ShortDescription>Reliance on default encoding</ShortDescription>
+    <Details><![CDATA[
+
+<p> Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  </p>
+
+      ]]></Details>
+  </BugPattern>
+  <BugPattern type="SE_BAD_FIELD" abbrev="Se" category="BAD_PRACTICE">
+    <ShortDescription>Non-transient non-serializable instance field in serializable class</ShortDescription>
+    <Details><![CDATA[
+
+<p> This Serializable class defines a non-primitive instance field which is neither transient,
+Serializable, or <code>java.lang.Object</code>, and does not appear to implement
+the <code>Externalizable</code> interface or the
+<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
+Objects of this class will not be deserialized correctly if a non-Serializable
+object is stored in this field.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="USBR_UNNECESSARY_STORE_BEFORE_RETURN" abbrev="USBR" category="STYLE">
+    <ShortDescription>Method stores return result in local before immediately returning it</ShortDescription>
+    <Details><![CDATA[
+			
+			<p>This method stores the return result in a local variable, and then immediately
+			returns the local variable. It would be simpler just to return the value that is
+			assigned to the local variable, directly.</p>
+			<p>
+				Instead of the following: <br/>
+
+<pre><code>
+public float average(int[] arr) {
+    float sum = 0;
+    for (int i = 0; i &lt; arr.length; i++) {
+        sum += arr[i];
+    }
+    float ave = sum / arr.length;
+    return ave;
+}
+</code></pre>
+
+				Simply change the method to return the result of the division: <br/>
+
+<pre><code>
+public float average(int[] arr) {
+    float sum = 0;
+    for (int i = 0; i &lt; arr.length; i++) {
+        sum += arr[i];
+    }
+    <b>return sum / arr.length;</b> //Change
+}
+</code></pre>
+			</p>
+			
+		]]></Details>
+  </BugPattern>
+  <BugPattern type="OS_OPEN_STREAM" abbrev="OS" category="BAD_PRACTICE">
+    <ShortDescription>Method may fail to close stream</ShortDescription>
+    <Details><![CDATA[
+
+<p> The method creates an IO stream object, does not assign it to any
+fields, pass it to other methods that might close it,
+or return it, and does not appear to close
+the stream on all paths out of the method.&nbsp; This may result in
+a file descriptor leak.&nbsp; It is generally a good
+idea to use a <code>finally</code> block to ensure that streams are
+closed.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="PSC">
+    <Description>Presize Collection</Description>
+  </BugCode>
+  <BugCode abbrev="OS">
+    <Description>Stream not closed on all paths</Description>
+  </BugCode>
+  <BugCode abbrev="EI">
+    <Description>Method returning array may expose internal representation</Description>
+  </BugCode>
+  <BugCode abbrev="SECCI">
+    <Description>Command Injection</Description>
+  </BugCode>
+  <BugCode abbrev="MS" cweid="218">
+    <Description>Mutable static field</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <BugCode abbrev="USBR">
+    <Description>Unnecessary Store Before Return</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Storing reference to mutable object</Description>
+  </BugCode>
+  <BugCode abbrev="SECSQLIJPA">
+    <Description>SQL Injection (JPA)</Description>
+  </BugCode>
+  <BugCode abbrev="Se">
+    <Description>Incorrect definition of Serializable class</Description>
+  </BugCode>
+  <BugCode abbrev="MDM">
+    <Description>More Dumb Methods</Description>
+  </BugCode>
+  <BugCode abbrev="SBSC">
+    <Description>String concatenation in loop using + operator</Description>
+  </BugCode>
+  <BugCode abbrev="LSC">
+    <Description>Literal String Comparison</Description>
+  </BugCode>
+  <BugCode abbrev="IMC">
+    <Description>Immature Class</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 24 Nov 2020 10:33:46 +0000" total_classes="21" referenced_classes="88" total_bugs="35" total_size="712" num_packages="6" java_version="1.8.0_262" vm_version="25.262-b10" cpu_seconds="15.84" clock_seconds="10.23" peak_mbytes="476.03" alloc_mbytes="1739.00" gc_seconds="0.07" priority_2="28" priority_1="7">
+    <FileStats path="com/appsecco/dvja/Constant.java" bugCount="1" size="6" bugHash="78961f55ff14f08610e4d0871887ec11"/>
+    <FileStats path="com/appsecco/dvja/controllers/ApiAction.java" bugCount="3" size="45" bugHash="f2e7ba8281164c42a6c3f896435161ec"/>
+    <FileStats path="com/appsecco/dvja/controllers/BaseController.java" bugCount="2" size="41" bugHash="ad9749d6a27c00499b1ae4301cbb1461"/>
+    <FileStats path="com/appsecco/dvja/controllers/Home.java" bugCount="2" size="20" bugHash="a82f3e4864ff86901e89c4527aafe320"/>
+    <FileStats path="com/appsecco/dvja/controllers/Login.java" bugCount="1" size="32" bugHash="5bef7e91acce8332e1feb494bca02e84"/>
+    <FileStats path="com/appsecco/dvja/controllers/PingAction.java" bugCount="4" size="39" bugHash="1fe607dcf2a1ace2e7397b5de8505061"/>
+    <FileStats path="com/appsecco/dvja/controllers/ProductAction.java" bugCount="3" size="51" bugHash="13e50f1e1d881b33316a3c25b36963b9"/>
+    <FileStats path="com/appsecco/dvja/controllers/RedirectAction.java" bugCount="0" size="13"/>
+    <FileStats path="com/appsecco/dvja/controllers/Register.java" bugCount="2" size="63" bugHash="e53e1020eea6dc20826b7cb3976f2663"/>
+    <FileStats path="com/appsecco/dvja/controllers/ResetPassword.java" bugCount="1" size="54" bugHash="2c6b9ed1f95bef4873bd0dae92fafbf3"/>
+    <FileStats path="com/appsecco/dvja/controllers/UserAction.java" bugCount="2" size="77" bugHash="1c6cd93477d29835cbf1d664e69be044"/>
+    <FileStats path="com/appsecco/dvja/interceptors/AuthenticationInterceptor.java" bugCount="0" size="12"/>
+    <FileStats path="com/appsecco/dvja/models/Product.java" bugCount="4" size="50" bugHash="11a820607f2291b9c72006069873d981"/>
+    <FileStats path="com/appsecco/dvja/models/User.java" bugCount="0" size="48"/>
+    <FileStats path="com/appsecco/dvja/services/ProductService.java" bugCount="3" size="28" bugHash="63baa9c5fca0de19faaf478db19e2e94"/>
+    <FileStats path="com/appsecco/dvja/services/UserAuthenticationService.java" bugCount="0" size="14"/>
+    <FileStats path="com/appsecco/dvja/services/UserRegistrationService.java" bugCount="0" size="21"/>
+    <FileStats path="com/appsecco/dvja/services/UserService.java" bugCount="6" size="61" bugHash="5ab43df0427e41f237e479557cf4a714"/>
+    <FileStats path="com/appsecco/example/ExampleSupport.java" bugCount="0" size="3"/>
+    <FileStats path="com/appsecco/example/HelloWorld.java" bugCount="0" size="13"/>
+    <FileStats path="com/appsecco/example/Login.java" bugCount="0" size="21"/>
+    <PackageStats package="com.appsecco.dvja" total_bugs="1" total_types="1" total_size="6" priority_1="1">
+      <ClassStats class="com.appsecco.dvja.Constant" sourceFile="Constant.java" interface="false" size="6" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.appsecco.dvja.controllers" total_bugs="21" total_types="10" total_size="435" priority_2="17" priority_1="4">
+      <ClassStats class="com.appsecco.dvja.controllers.ApiAction" sourceFile="ApiAction.java" interface="false" size="45" bugs="4" priority_2="2" priority_1="2"/>
+      <ClassStats class="com.appsecco.dvja.controllers.BaseController" sourceFile="BaseController.java" interface="false" size="41" bugs="2" priority_2="2"/>
+      <ClassStats class="com.appsecco.dvja.controllers.Home" sourceFile="Home.java" interface="false" size="20" bugs="2" priority_2="2"/>
+      <ClassStats class="com.appsecco.dvja.controllers.Login" sourceFile="Login.java" interface="false" size="32" bugs="1" priority_2="1"/>
+      <ClassStats class="com.appsecco.dvja.controllers.PingAction" sourceFile="PingAction.java" interface="false" size="39" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="com.appsecco.dvja.controllers.ProductAction" sourceFile="ProductAction.java" interface="false" size="51" bugs="3" priority_2="3"/>
+      <ClassStats class="com.appsecco.dvja.controllers.RedirectAction" sourceFile="RedirectAction.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.appsecco.dvja.controllers.Register" sourceFile="Register.java" interface="false" size="63" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.appsecco.dvja.controllers.ResetPassword" sourceFile="ResetPassword.java" interface="false" size="54" bugs="1" priority_2="1"/>
+      <ClassStats class="com.appsecco.dvja.controllers.UserAction" sourceFile="UserAction.java" interface="false" size="77" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="com.appsecco.dvja.interceptors" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="com.appsecco.dvja.interceptors.AuthenticationInterceptor" sourceFile="AuthenticationInterceptor.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.appsecco.dvja.models" total_bugs="4" total_types="2" total_size="98" priority_2="4">
+      <ClassStats class="com.appsecco.dvja.models.Product" sourceFile="Product.java" interface="false" size="50" bugs="4" priority_2="4"/>
+      <ClassStats class="com.appsecco.dvja.models.User" sourceFile="User.java" interface="false" size="48" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.appsecco.dvja.services" total_bugs="9" total_types="4" total_size="124" priority_2="7" priority_1="2">
+      <ClassStats class="com.appsecco.dvja.services.ProductService" sourceFile="ProductService.java" interface="false" size="28" bugs="3" priority_2="3"/>
+      <ClassStats class="com.appsecco.dvja.services.UserAuthenticationService" sourceFile="UserAuthenticationService.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.appsecco.dvja.services.UserRegistrationService" sourceFile="UserRegistrationService.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.appsecco.dvja.services.UserService" sourceFile="UserService.java" interface="false" size="61" bugs="6" priority_2="4" priority_1="2"/>
+    </PackageStats>
+    <PackageStats package="com.appsecco.example" total_bugs="0" total_types="3" total_size="37">
+      <ClassStats class="com.appsecco.example.ExampleSupport" sourceFile="ExampleSupport.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.appsecco.example.HelloWorld" sourceFile="HelloWorld.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.appsecco.example.Login" sourceFile="Login.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="658" invocations="571" avgMicrosecondsPerInvocation="1153" maxMicrosecondsPerInvocation="29326" standardDeviationMicrosecondsPerInvocation="3284"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="304" invocations="598" avgMicrosecondsPerInvocation="508" maxMicrosecondsPerInvocation="14996" standardDeviationMicrosecondsPerInvocation="1248"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="216" invocations="181" avgMicrosecondsPerInvocation="1197" maxMicrosecondsPerInvocation="48861" standardDeviationMicrosecondsPerInvocation="4553"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="199" invocations="395" avgMicrosecondsPerInvocation="506" maxMicrosecondsPerInvocation="58798" standardDeviationMicrosecondsPerInvocation="3079"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="188" invocations="88" avgMicrosecondsPerInvocation="2145" maxMicrosecondsPerInvocation="48351" standardDeviationMicrosecondsPerInvocation="6267"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="187" invocations="88" avgMicrosecondsPerInvocation="2129" maxMicrosecondsPerInvocation="35490" standardDeviationMicrosecondsPerInvocation="5330"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectStatistics" totalMilliseconds="181" invocations="88" avgMicrosecondsPerInvocation="2060" maxMicrosecondsPerInvocation="52218" standardDeviationMicrosecondsPerInvocation="7191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="180" invocations="183" avgMicrosecondsPerInvocation="985" maxMicrosecondsPerInvocation="36370" standardDeviationMicrosecondsPerInvocation="3511"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="167" invocations="537" avgMicrosecondsPerInvocation="311" maxMicrosecondsPerInvocation="68428" standardDeviationMicrosecondsPerInvocation="3013"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="166" invocations="181" avgMicrosecondsPerInvocation="922" maxMicrosecondsPerInvocation="20552" standardDeviationMicrosecondsPerInvocation="2848"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="153" invocations="239" avgMicrosecondsPerInvocation="642" maxMicrosecondsPerInvocation="67525" standardDeviationMicrosecondsPerInvocation="4460"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="144" invocations="181" avgMicrosecondsPerInvocation="797" maxMicrosecondsPerInvocation="16098" standardDeviationMicrosecondsPerInvocation="2112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="142" invocations="181" avgMicrosecondsPerInvocation="785" maxMicrosecondsPerInvocation="23083" standardDeviationMicrosecondsPerInvocation="2640"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="115" invocations="181" avgMicrosecondsPerInvocation="637" maxMicrosecondsPerInvocation="24098" standardDeviationMicrosecondsPerInvocation="2095"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="113" invocations="181" avgMicrosecondsPerInvocation="628" maxMicrosecondsPerInvocation="70807" standardDeviationMicrosecondsPerInvocation="5311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="106" invocations="183" avgMicrosecondsPerInvocation="581" maxMicrosecondsPerInvocation="17903" standardDeviationMicrosecondsPerInvocation="1700"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SerializableIdiom" totalMilliseconds="103" invocations="21" avgMicrosecondsPerInvocation="4913" maxMicrosecondsPerInvocation="18276" standardDeviationMicrosecondsPerInvocation="5201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="84" invocations="88" avgMicrosecondsPerInvocation="955" maxMicrosecondsPerInvocation="51236" standardDeviationMicrosecondsPerInvocation="5513"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="81" invocations="68" avgMicrosecondsPerInvocation="1204" maxMicrosecondsPerInvocation="30964" standardDeviationMicrosecondsPerInvocation="3962"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="78" invocations="88" avgMicrosecondsPerInvocation="895" maxMicrosecondsPerInvocation="20520" standardDeviationMicrosecondsPerInvocation="2682"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="65" invocations="88" avgMicrosecondsPerInvocation="748" maxMicrosecondsPerInvocation="15735" standardDeviationMicrosecondsPerInvocation="2435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="62" invocations="88" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="14786" standardDeviationMicrosecondsPerInvocation="2552"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectNullableMethodStatus" totalMilliseconds="60" invocations="88" avgMicrosecondsPerInvocation="690" maxMicrosecondsPerInvocation="8094" standardDeviationMicrosecondsPerInvocation="1607"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="59" invocations="88" avgMicrosecondsPerInvocation="681" maxMicrosecondsPerInvocation="12337" standardDeviationMicrosecondsPerInvocation="2046"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="59" invocations="21" avgMicrosecondsPerInvocation="2842" maxMicrosecondsPerInvocation="32196" standardDeviationMicrosecondsPerInvocation="7890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="57" invocations="88" avgMicrosecondsPerInvocation="656" maxMicrosecondsPerInvocation="15349" standardDeviationMicrosecondsPerInvocation="1971"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="56" invocations="21" avgMicrosecondsPerInvocation="2681" maxMicrosecondsPerInvocation="13241" standardDeviationMicrosecondsPerInvocation="4154"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectMethodsReturningImmutableCollections" totalMilliseconds="50" invocations="88" avgMicrosecondsPerInvocation="568" maxMicrosecondsPerInvocation="12688" standardDeviationMicrosecondsPerInvocation="1845"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetector" totalMilliseconds="46" invocations="21" avgMicrosecondsPerInvocation="2235" maxMicrosecondsPerInvocation="36829" standardDeviationMicrosecondsPerInvocation="7774"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="46" invocations="21" avgMicrosecondsPerInvocation="2192" maxMicrosecondsPerInvocation="19632" standardDeviationMicrosecondsPerInvocation="4335"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="40" invocations="88" avgMicrosecondsPerInvocation="454" maxMicrosecondsPerInvocation="24465" standardDeviationMicrosecondsPerInvocation="2629"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="38" invocations="21" avgMicrosecondsPerInvocation="1848" maxMicrosecondsPerInvocation="8553" standardDeviationMicrosecondsPerInvocation="2460"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="38" invocations="21" avgMicrosecondsPerInvocation="1841" maxMicrosecondsPerInvocation="16951" standardDeviationMicrosecondsPerInvocation="3739"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="37" invocations="1612" avgMicrosecondsPerInvocation="23" maxMicrosecondsPerInvocation="4479" standardDeviationMicrosecondsPerInvocation="193"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="37" invocations="181" avgMicrosecondsPerInvocation="204" maxMicrosecondsPerInvocation="7295" standardDeviationMicrosecondsPerInvocation="876"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="35" invocations="21" avgMicrosecondsPerInvocation="1700" maxMicrosecondsPerInvocation="15185" standardDeviationMicrosecondsPerInvocation="3326"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.InefficientStringBuffering" totalMilliseconds="33" invocations="21" avgMicrosecondsPerInvocation="1617" maxMicrosecondsPerInvocation="18943" standardDeviationMicrosecondsPerInvocation="4312"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="30" invocations="21" avgMicrosecondsPerInvocation="1451" maxMicrosecondsPerInvocation="10734" standardDeviationMicrosecondsPerInvocation="3033"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="30" invocations="21" avgMicrosecondsPerInvocation="1435" maxMicrosecondsPerInvocation="14032" standardDeviationMicrosecondsPerInvocation="3175"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.InconsistentKeyNameCasing" totalMilliseconds="29" invocations="21" avgMicrosecondsPerInvocation="1414" maxMicrosecondsPerInvocation="27333" standardDeviationMicrosecondsPerInvocation="5796"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="29" invocations="21" avgMicrosecondsPerInvocation="1413" maxMicrosecondsPerInvocation="22244" standardDeviationMicrosecondsPerInvocation="4710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="27" invocations="21" avgMicrosecondsPerInvocation="1308" maxMicrosecondsPerInvocation="8304" standardDeviationMicrosecondsPerInvocation="2120"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.PartiallyConstructedObjectAccess" totalMilliseconds="26" invocations="21" avgMicrosecondsPerInvocation="1272" maxMicrosecondsPerInvocation="14820" standardDeviationMicrosecondsPerInvocation="3230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="26" invocations="181" avgMicrosecondsPerInvocation="147" maxMicrosecondsPerInvocation="7319" standardDeviationMicrosecondsPerInvocation="714"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.extra.JstlExpressionWhiteLister" totalMilliseconds="26" invocations="21" avgMicrosecondsPerInvocation="1267" maxMicrosecondsPerInvocation="22027" standardDeviationMicrosecondsPerInvocation="4669"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="26" invocations="21" avgMicrosecondsPerInvocation="1259" maxMicrosecondsPerInvocation="8705" standardDeviationMicrosecondsPerInvocation="2321"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.UseAddAll" totalMilliseconds="26" invocations="21" avgMicrosecondsPerInvocation="1256" maxMicrosecondsPerInvocation="14228" standardDeviationMicrosecondsPerInvocation="3123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.NonReportingDetectorToDetector2Adapter" totalMilliseconds="26" invocations="1450" avgMicrosecondsPerInvocation="18" maxMicrosecondsPerInvocation="17059" standardDeviationMicrosecondsPerInvocation="457"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="25" invocations="21" avgMicrosecondsPerInvocation="1228" maxMicrosecondsPerInvocation="13962" standardDeviationMicrosecondsPerInvocation="2957"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.SillynessPotPourri" totalMilliseconds="25" invocations="21" avgMicrosecondsPerInvocation="1221" maxMicrosecondsPerInvocation="19341" standardDeviationMicrosecondsPerInvocation="4056"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.PresizeCollections" totalMilliseconds="25" invocations="21" avgMicrosecondsPerInvocation="1195" maxMicrosecondsPerInvocation="17873" standardDeviationMicrosecondsPerInvocation="3771"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.SpelViewDetector" totalMilliseconds="24" invocations="21" avgMicrosecondsPerInvocation="1187" maxMicrosecondsPerInvocation="15113" standardDeviationMicrosecondsPerInvocation="3260"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.OverlyConcreteParameter" totalMilliseconds="24" invocations="21" avgMicrosecondsPerInvocation="1179" maxMicrosecondsPerInvocation="11613" standardDeviationMicrosecondsPerInvocation="2654"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="23" invocations="88" avgMicrosecondsPerInvocation="266" maxMicrosecondsPerInvocation="4284" standardDeviationMicrosecondsPerInvocation="707"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.HangingExecutors" totalMilliseconds="22" invocations="21" avgMicrosecondsPerInvocation="1091" maxMicrosecondsPerInvocation="8657" standardDeviationMicrosecondsPerInvocation="2036"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="22" invocations="21" avgMicrosecondsPerInvocation="1056" maxMicrosecondsPerInvocation="19095" standardDeviationMicrosecondsPerInvocation="4035"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="21" invocations="88" avgMicrosecondsPerInvocation="248" maxMicrosecondsPerInvocation="11685" standardDeviationMicrosecondsPerInvocation="1429"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="21" invocations="181" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="7864" standardDeviationMicrosecondsPerInvocation="638"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.HttpClientProblems" totalMilliseconds="21" invocations="21" avgMicrosecondsPerInvocation="1027" maxMicrosecondsPerInvocation="17474" standardDeviationMicrosecondsPerInvocation="3680"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.ScriptInjectionDetector" totalMilliseconds="20" invocations="21" avgMicrosecondsPerInvocation="981" maxMicrosecondsPerInvocation="11851" standardDeviationMicrosecondsPerInvocation="2597"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.PossiblyRedundantMethodCalls" totalMilliseconds="20" invocations="21" avgMicrosecondsPerInvocation="967" maxMicrosecondsPerInvocation="6168" standardDeviationMicrosecondsPerInvocation="1442"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.CommonsStringBuilderToString" totalMilliseconds="20" invocations="21" avgMicrosecondsPerInvocation="958" maxMicrosecondsPerInvocation="8504" standardDeviationMicrosecondsPerInvocation="2444"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.DubiousSetOfCollections" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="951" maxMicrosecondsPerInvocation="9385" standardDeviationMicrosecondsPerInvocation="2183"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xpath.XPathInjectionDetector" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="947" maxMicrosecondsPerInvocation="11670" standardDeviationMicrosecondsPerInvocation="2567"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.SqlInjectionDetector" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="939" maxMicrosecondsPerInvocation="11834" standardDeviationMicrosecondsPerInvocation="2637"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.ImmatureClass" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="936" maxMicrosecondsPerInvocation="3003" standardDeviationMicrosecondsPerInvocation="744"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="19" invocations="8076" avgMicrosecondsPerInvocation="2" maxMicrosecondsPerInvocation="149" standardDeviationMicrosecondsPerInvocation="3"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="930" maxMicrosecondsPerInvocation="7389" standardDeviationMicrosecondsPerInvocation="1774"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetector" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="929" maxMicrosecondsPerInvocation="5509" standardDeviationMicrosecondsPerInvocation="1384"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.cookie.CookieReadDetector" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="927" maxMicrosecondsPerInvocation="17125" standardDeviationMicrosecondsPerInvocation="3623"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.LingeringGraphicsObjects" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="910" maxMicrosecondsPerInvocation="15504" standardDeviationMicrosecondsPerInvocation="3265"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetector" totalMilliseconds="18" invocations="21" avgMicrosecondsPerInvocation="891" maxMicrosecondsPerInvocation="16389" standardDeviationMicrosecondsPerInvocation="3466"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.ListIndexedIterating" totalMilliseconds="18" invocations="21" avgMicrosecondsPerInvocation="890" maxMicrosecondsPerInvocation="17766" standardDeviationMicrosecondsPerInvocation="3773"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="18" invocations="181" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="5713" standardDeviationMicrosecondsPerInvocation="570"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetector" totalMilliseconds="18" invocations="21" avgMicrosecondsPerInvocation="881" maxMicrosecondsPerInvocation="13185" standardDeviationMicrosecondsPerInvocation="2885"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ssrf.SSRFDetector" totalMilliseconds="18" invocations="21" avgMicrosecondsPerInvocation="880" maxMicrosecondsPerInvocation="12487" standardDeviationMicrosecondsPerInvocation="2698"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

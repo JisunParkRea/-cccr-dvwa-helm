@@ -6,7 +6,7 @@ replicaCount: 3
 
 image:
   repository: 34.64.237.112/cccr/jisun
-  tag: 78
+  tag: 80
   pullPolicy: ""
 
 
